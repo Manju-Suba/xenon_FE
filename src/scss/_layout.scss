@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  @include ltr-rtl('padding-left', var(--cui-sidebar-occupy-start, 0));
+  will-change: auto;
+  @include transition(padding 0.15s);
+}
+.signup-bg {
+  background-image: url('../assets/images/signup-bg.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #fff !important;
+  background-position: center;
+}
